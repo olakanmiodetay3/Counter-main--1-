@@ -1,0 +1,39 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  background-color: rgb(226, 156, 226)
+}
+
+.count {
+  font-size: 3rem;
+  color: blueviolet;
+}
+ button {
+  margin-right: 0.3rem;
+ }
+
+
+ p{
+   margin-top: 2rem
+ }
+
+
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.main-counter{
+  background-color: white;
+  border-radius: 0.8rem;
+  margin-top: -2rem;
+}
+
